@@ -1,0 +1,52 @@
+.textblocktext {
+    font-family: 'Mostin', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: beige;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.logoblock {
+    display: flex;
+    flex-direction: row;
+    margin-right: 35px;
+    align-items: flex-end;
+}
+
+.logoblock img {
+    width: 32px;
+    height: 32px;
+}
+
+.logo1 {
+    margin-right: 5px;
+}
+
+
+body {
+    background-image: linear-gradient(to right, #880E4F, #FF1744);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+
+}
+
+.poproducts{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: beige;
+}
+
+.customcard{
+    margin: auto;
+    opacity: 0.9;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
