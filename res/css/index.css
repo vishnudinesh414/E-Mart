@@ -51,3 +51,29 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
 }
+
+@media only screen and (max-width: 1000px) {
+    .section{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .customcard{
+        margin: auto;
+        margin-bottom: 10%;
+        opacity: 0.9;
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+    .section{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .customcard{
+        margin: auto;
+        margin-bottom: 10%;
+        opacity: 0.9;
+    }
+
+}
