@@ -1,0 +1,67 @@
+.textblocktext {
+    font-family: 'Mostin', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: beige;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.logoblock {
+    display: flex;
+    flex-direction: row;
+    margin-right: 35px;
+    align-items: flex-end;
+}
+
+.logoblock img {
+    width: 32px;
+    height: 32px;
+}
+
+.logo1 {
+    margin-right: 5px;
+}
+
+
+body {
+    background-image: linear-gradient(to right, #880E4F, #FF1744);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: 0px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.figimg{
+    display: flex;
+    align-items: baseline;
+}
+
+.rows{
+    margin-right: 1%;
+    
+    padding-right: 15%;
+}
+
+.dlist-align{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+
+.btn1{
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
